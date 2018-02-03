@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Supermercado+One" rel="stylesheet">
+    <link rel="stylesheet" href="assets/styles/style.css">
+    <title>KokaRoka</title>
+</head>
+
+<body>
+    <div>
+        <div class="video-background">
+            <div class="video-foreground">
+                <video autoplay muted loop id="myVideo">
+                    <source src="assets/media/The_Rooster.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div id="display-left">
+            <div id="display-info">
+                <div id="display-info-score">
+                    Score
+                    <p id="display-info-score-text">0</p>
+                </div>
+                <div id="display-info-level">
+                    Level
+                    <p id="display-info-level-text">
+                        1
+                    </p>
+                </div>
+                <div id="display-info-life">
+                    <div id="display-info-life-picture">
+                        <img id="life-1" src="assets/images/egg.png" alt="egg">
+                        <img id="life-2" src="assets/images/egg.png" alt="egg">
+                        <img id="life-3" src="assets/images/egg.png" alt="egg">
+                    </div>
+                    <div id="display-info-life-cowboy-picture">
+                        <img src="assets/images/chowboy.gif" alt="chowboy">
+                    </div>
+                </div>
+            </div>
+            <div id="button-reset">Reset Game</div>
+        </div>
+        <div data-display id="display-main">
+            <div id="display-main-ammo">
+                <p id="display-main-ammo-number"></p>
+                <img src="assets/images/bullet.png" alt="bullet">
+            </div>
+            <p id="display-main-reload">Reload!</p>
+            <div id="display-main-form">
+                <p id="display-main-form-text">Select Mode</p>
+                <form>
+                    <select name="mode" id="mode">
+                        <option value="30">Relax</option>
+                        <option value="20">Challenge</option>
+                        <option value="10">Mad Chicken</option>
+                    </select>
+                </form>
+                <div id="display-main-form-smiley">
+                    <img id="smiley" src="assets/images/30.png" alt="smiley">
+                </div>
+                <button id="display-main-form-button">GO!</button>
+            </div>
+            <img id="chicken-1" src="assets/images/chicken-1.png" data-target alt="chicken">
+            <img id="chicken-2" src="assets/images/chicken-1.png" data-target alt="chicken">
+            <img id="chicken-3" src="assets/images/chicken-1.png" data-target alt="chicken">
+            <img id="chicken-4" src="assets/images/chicken-1.png" data-target alt="chicken">
+            <img id="chicken-5" src="assets/images/chicken-1.png" data-target alt="chicken">
+            <img data-display id="blood" src="assets/images/blood-large.png" alt="blood">
+            <p id="display-main-indikator">Press start game button to begin</p>
+            <p id="display-main-indikator-counter"></p>
+            <div id="display-main-info">
+                <img id="display-main-info-chicken" src="assets/images/chicken-1.png" alt="chicken">
+                <p id="display-main-info-text">GAME OVER YOUR SCORE IS:
+                    <span id="display-main-info-text-score">100</span>
+                </p>
+                <div id="display-main-info-picture">
+                    <img id="throphy" src="assets/images/trophy-gold.png" alt="trophy">
+                </div>
+            </div>
+            <div id="button-startGame">
+                <p id="button-startGame-text">Start Game</p>
+            </div>
+            <div data-ammo id="display-main-ammo-can">
+                <p data-ammo>Ammunition</p>
+                <img data-ammo src="assets/images/can.png" alt="can">
+            </div>
+        </div>
+    </div>
+    <script src="assets/scripts/howler.min.js"></script>
+    <script src="assets/scripts/elements.js"></script>
+    <script src="assets/scripts/main.js"></script>
+</body>
+
+</html>
