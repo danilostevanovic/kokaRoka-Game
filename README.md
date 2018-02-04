@@ -4,7 +4,7 @@
 | <img src='https://github.com/danilostevanovic/kokaRoka-Game/blob/master/info/start.png'/>  | The start game button indicates the start of a new game  |
 | <img src='https://github.com/danilostevanovic/kokaRoka-Game/blob/master/info/mode.png'/>  |  On select mode you can choose between three different modes |
 | <img src='https://github.com/danilostevanovic/kokaRoka-Game/blob/master/info/target.png'/>  | Your target is the chicken and your main goal is to shoot as many of them  |
-|   |   |
+| <img src='https://github.com/danilostevanovic/kokaRoka-Game/blob/master/info/level.png'/>  | The eggs stand for lives. If you miss a chicken, you loose an egg. But be careful, you have only three  |
 |   |   |
 |   |   |
 |   |   |
